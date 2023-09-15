@@ -26,16 +26,16 @@
         font-family:"Segoe UI";
     }
 
-    .circle {
-        background-color: #002E5B;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        color: yellow;
-    }
+        .circle {
+            background-color: #002E5B;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            color: yellow;
+        }
 
     .Service-Container{
         margin: 5px;
@@ -50,7 +50,19 @@
         flex-direction: column;
     }
 
-    i{
-        font-size: 26px;
-        border-radius: 50%;
-    }
+        i {
+            font-size: 26px;
+            border-radius: 50%;
+        }
+
+        @media (max-width: 600px) {
+            .circle {
+                    width: 55px;
+                    height: 55px;
+                }
+
+                i {
+                    font-size: 17px;
+                    border-radius: 50%;
+                }
+        }
