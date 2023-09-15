@@ -1,68 +1,69 @@
-    .Container{
+    .Container {
         background-color: transparent;
 
     }
 
-    .content{
+    .content {
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
     }
 
-    .content-of-service  p{
+    .content-of-service p {
         width: 300px;
     }
 
-    .top{
+    .top {
         text-align: center;
     }
 
-    h2,h3{
+    h2,
+    h3 {
         color: rgb(0, 46, 91);
         font-family: cursive;
     }
 
-    p{
-        font-family:"Segoe UI";
+    p {
+        font-family: "Segoe UI";
     }
 
-        .circle {
-            background-color: #002E5B;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            color: yellow;
-        }
+    .circle {
+        background-color: #002E5B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        color: yellow;
+    }
 
-    .Service-Container{
+    .Service-Container {
         margin: 5px;
         display: flex;
-        align-items: center     ;
+        align-items: center;
         gap: 10px;
         flex-direction: row;
     }
 
-    .Service-Container div .content-of-service{
+    .Service-Container div .content-of-service {
         display: flex;
         flex-direction: column;
     }
 
+    i {
+        font-size: 26px;
+        border-radius: 50%;
+    }
+
+    @media (max-width: 600px) {
+        .circle {
+            width: 45px;
+            height: 45px;
+        }
+
         i {
-            font-size: 26px;
+            font-size: 15px;
             border-radius: 50%;
         }
-
-        @media (max-width: 600px) {
-            .circle {
-                    width: 55px;
-                    height: 55px;
-                }
-
-                i {
-                    font-size: 17px;
-                    border-radius: 50%;
-                }
-        }
+    }
